@@ -2,6 +2,8 @@
 
 This plugin automatically checks for newer versions of a self hosted theme.
 
+If updates are available custom update nags are displayed instead of the standard ones.
+
 At the moment there is no automatical update option but hope to develop it later on, when i'm satisfied with the current functionallity.
 
 # Examples
