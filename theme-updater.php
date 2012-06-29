@@ -33,7 +33,7 @@ function get_theme_current_data() {
 }
 
 function get_theme_latest_data() {
-	delete_transient( 'hovedspring-forbudt-theme-latest-data' ); // For tests only
+	// delete_transient( 'hovedspring-forbudt-theme-latest-data' ); // For tests only
 	
 	if ( !get_transient( 'hovedspring-forbudt-theme-latest-data' ) ) :
 		$url = 'http://cdn.thomasclausen.dk/wordpress/themes/hovedspring-forbudt/';
@@ -46,7 +46,7 @@ function get_theme_latest_data() {
 			'Changelog' => $response['changelog']
 		);
 
-		set_transient( 'hovedspring-forbudt-theme-latest-data', $theme_update_array, 60*60*24 );
+		set_transient( 'hovedspring-forbudt-theme-latest-data', $theme_update_array, 60*60*12 );
 	endif;
 	
 	return get_transient( 'hovedspring-forbudt-theme-latest-data' );
