@@ -6,6 +6,8 @@ If updates are available custom update nags are displayed instead of the standar
 
 At the moment there is no automatical update option but hope to develop it later on, when i'm satisfied with the current functionallity.
 
+STILL WORK IN PROGRESS! So don't expect it to work flawless...
+
 # Examples
 
 Currently no examples...
